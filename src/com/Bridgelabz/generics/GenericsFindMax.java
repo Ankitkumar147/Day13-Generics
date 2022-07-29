@@ -13,6 +13,6 @@ public class GenericsFindMax <T extends Comparable<T>> {
     public static void main(String[] args) {
 	GenericsFindMax genericsFindMax = new GenericsFindMax();
         System.out.println(genericsFindMax.findMaximum(4,5,3));
-
+        System.out.println(genericsFindMax.findMaximum(1.5,2.5,3.5));
     }
 }
