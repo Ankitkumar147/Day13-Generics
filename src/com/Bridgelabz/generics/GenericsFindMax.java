@@ -14,5 +14,6 @@ public class GenericsFindMax <T extends Comparable<T>> {
 	GenericsFindMax genericsFindMax = new GenericsFindMax();
         System.out.println(genericsFindMax.findMaximum(4,5,3));
         System.out.println(genericsFindMax.findMaximum(1.5,2.5,3.5));
+        System.out.println(genericsFindMax.findMaximum("apple", "peach", "banana"));
     }
 }
